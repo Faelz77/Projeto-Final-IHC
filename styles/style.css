@@ -1,6 +1,6 @@
 @font-face {
     font-family:Kanit-Regular ;
-    src: url('/Projeto-Final-IHC/fonts/Kanit-Regular.ttf') format('truetype');
+    src: url('../fonts/Kanit-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -30,7 +30,7 @@ body{
 }
 
 .fundo-imagem{
-    background-image: url(/Projeto-Final-IHC/imgs/Rectangle\ 1.png);
+    background-image: url('../imgs/Rectangle\ 1.png');
     width: 100%;
     height: 956px;
 }
@@ -198,7 +198,7 @@ input[type=text] {
     background: #ffffff;
     border: none;
     cursor: pointer;
-    background-image: url("/Projeto-Final-IHC/imgs/Lupa.png");
+    background-image: url("../imgs/Lupa.png");
 }
 
 .Artigos{

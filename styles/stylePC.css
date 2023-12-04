@@ -1,6 +1,6 @@
 @font-face {
     font-family:Kanit-Regular ;
-    src: url('/Projeto-Final-IHC/fonts/Kanit-Regular.ttf') format('truetype');
+    src: url("../fonts/Kanit-Regular.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -27,7 +27,7 @@
 body{
     margin: 0;
     overflow-x: hidden;
-    background-image: url(/Projeto-Final-IHC/imgs/PC.png);
+    background-image: url("../imgs/PC.png");
 }
 
 .topNav{
