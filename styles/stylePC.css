@@ -1,0 +1,174 @@
+@font-face {
+    font-family:Kanit-Regular ;
+    src: url('/Projeto-Final-IHC/fonts/Kanit-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+
+::-webkit-scrollbar-track {
+    background: #443636; 
+}
+   
+
+::-webkit-scrollbar-thumb {
+    background: #BDD7FF; 
+}
+  
+
+::-webkit-scrollbar-thumb:hover {
+    background: #BDD7FF; 
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+    background-image: url(/Projeto-Final-IHC/imgs/PC.png);
+}
+
+.topNav{
+    height: 100px;
+    background-color: #362A2A;
+}
+
+.flex-container-SA {
+    display: flex;
+    justify-content:space-around;
+}
+
+.logo{
+    width: 381px;
+    height: 84px;
+    margin-top: 10px;
+    margin-left: -50px;
+}
+
+.itensNav{
+    color: #BDD7FF;
+    font-family: Kanit-Regular, Arial;
+    text-decoration:overline;
+    font-size: 25px;
+    margin-top: 33px;
+    margin-right: 40px;
+}
+
+.itensNav:hover{
+    text-decoration: overline #3D85C6;
+}
+
+.button-entrar{
+    color: #BDD7FF;
+    font-family: Kanit-Regular, Arial;
+    text-decoration: none;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #47322a;
+}
+
+.button-entrar:hover{
+    background-color: #513830;
+}
+
+.linhaTransparente{
+    width: 100%;
+    height: 21px;
+    background: rgba(37, 28, 28, 0.7);
+}
+
+.Main{
+    height: 750px;
+    background: rgba(54, 42, 42, 0.98);
+    margin-top: 30px;
+    display: flex;
+}
+
+.Chamada{
+    width: 587px;
+    height: 219px;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.Chamada h1{
+    color: #3D85C6;
+    font-family: Kanit-Regular, Arial;
+    font-size: 70px;
+    text-align: center;
+}
+
+.Chamada p{
+    color: #BDD7FF;
+    font-family: Kanit-Regular, Arial;
+    font-size: 40px;
+    width: 441px;
+    height: 165px;
+    margin-left: 90px;
+}
+
+.forms{
+    width: 1129px;
+    margin-top: 30px ;
+}
+
+.forms h2{
+    margin-left: 150px ;
+    color: #3D85C6;
+    font-family: Kanit-Regular, Arial;
+    font-size: 30px;
+}
+
+input[type=submit] {
+    width: 50%;
+    border-radius: 10px;
+    background-color: #47322a;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    color: #BDD7FF;
+    font-family: Kanit-Regular, Arial;
+    font-size: 30px;
+    margin-left: 30%;
+    margin-top: 70px;
+}
+
+input[type=submit]:hover{
+    background-color: #513830; ;
+}
+
+input[type=text], select {
+    width: 90%;
+    padding: 15px 20px;
+    display: inline-block;
+    border: 1px solid #8D8D8D;
+    background: #8D8D8D;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 100px;
+
+  }
+
+input[type=text]::placeholder{
+    color: #362A2A;
+    font-family: Kanit-Regular, Arial;
+    font-size: 17px;
+  }
+
+.forms h3{
+    color: #BDD7FF;
+    font-family: Kanit-Regular, Arial;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
